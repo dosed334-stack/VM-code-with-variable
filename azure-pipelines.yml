@@ -1,0 +1,12 @@
+trigger: none
+
+pool:pipeline pool
+
+name:VM-code-with-variable
+
+steps:
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
+
+
